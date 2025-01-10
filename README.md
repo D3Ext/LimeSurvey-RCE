@@ -1,4 +1,4 @@
-# LimSurvey-RCE
+# CVE-2021-44967
 
 This repository contains a POC (Proof of Concept) of the CVE-2021-44967 vulnerability, which affects to LimeSurvey 5.2 and higher versions. It allows an authenticated user to upload its own malicious plugins, leading to a RCE (Remote Code Execution) through PHP code execution. This exploit uses a PHP reverse shell which is triggered once the malicious plugin is uploaded.
 
